@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repos\\CSharpEducation\\Practice\\Practice.csproj": {}
+    "C:\\PROJECTS\\CSharpEducation\\Practice\\Practice.csproj": {}
   },
   "projects": {
-    "D:\\repos\\CSharpEducation\\Practice\\Practice.csproj": {
+    "C:\\PROJECTS\\CSharpEducation\\Practice\\Practice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\CSharpEducation\\Practice\\Practice.csproj",
+        "projectUniqueName": "C:\\PROJECTS\\CSharpEducation\\Practice\\Practice.csproj",
         "projectName": "Practice",
-        "projectPath": "D:\\repos\\CSharpEducation\\Practice\\Practice.csproj",
+        "projectPath": "C:\\PROJECTS\\CSharpEducation\\Practice\\Practice.csproj",
         "packagesPath": "C:\\Users\\Dima\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\CSharpEducation\\Practice\\obj\\",
+        "outputPath": "C:\\PROJECTS\\CSharpEducation\\Practice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dima\\AppData\\Roaming\\NuGet\\NuGet.Config",

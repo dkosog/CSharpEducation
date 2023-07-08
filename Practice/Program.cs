@@ -144,6 +144,59 @@
                 Console.WriteLine($"{ValueInKMeters} км. это {ValueInKMeters  * 1000 * 100} см.");
             }
 
+
+            ///<summary>
+            ///Задание 4c.
+            ///</summary>
+            void ConvertSpeed()
+            {
+                Console.WriteLine("Перевод скорости из метров в секунду в километры в час");
+                Console.Write("Введите скорость в м/с: ");
+                double Speed = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine($"{Speed} м/с это {Speed * 3.6} км/ч");
+            }
+
+            ///<summary>
+            ///Задание 4d.
+            ///</summary>
+            void ConvertTemperature()
+            {
+                Console.WriteLine("Перевод температуры из C в F");
+                Console.Write("Введите температуру в С: ");
+                double Temperature = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine($"{Temperature} градусов по С это {(Temperature / 5) * 9 + 32} градусов по F");
+            }
+
+
+            ///<summary>
+            ///Задание 5a.
+            ///</summary>
+            void Pifagor2K()
+            {
+                Console.WriteLine("Найдем гипотенузу через 2 катета");
+                Console.Write("Введите катет 1: ");
+                double Leg1 = Convert.ToDouble(Console.ReadLine());
+                Console.Write("Введите катет 2: ");
+                double Leg2 = Convert.ToDouble(Console.ReadLine());
+                double Hypotenuse = Math.Sqrt(Math.Pow(Leg1, 2) + Math.Pow(Leg2, 2));
+                Console.WriteLine($"Если катет 1 - {Leg1}, а катет 2 - {Leg2}, то гипотенуза составит {Hypotenuse}");
+            }
+
+            ///<summary>
+            ///Задание 5b.
+            ///</summary>
+            void Pifagor1H1K()
+            {
+                Console.WriteLine("Найдем 2 катет через гипотенузу и 1 катет");
+                Console.Write("Введите гипотенузу: ");
+                double Hypotenuse = Convert.ToDouble(Console.ReadLine());
+                Console.Write("Введите катет 1: ");
+                double Leg1 = Convert.ToDouble(Console.ReadLine());
+                double Leg2 = Math.Sqrt(Math.Pow(Hypotenuse, 2) - Math.Pow(Leg1, 2));
+                Console.WriteLine($"Если гипотенуза - {Hypotenuse}, а катет 1 - {Leg1}, то катет 2 составит {Leg2}");
+            }
+
+
             //GetValues();
 
             //FirstCycle();
@@ -160,7 +213,15 @@
 
             //ConvertMeters2Kilometers();
 
-            ConvertKilometers2Santimeters();
+            //ConvertKilometers2Santimeters();
+
+            //ConvertSpeed();
+
+            // ConvertTemperature();
+
+            // Pifagor2K();
+            
+            //Pifagor1H1K();
         }
     }
 }
