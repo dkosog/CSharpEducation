@@ -197,6 +197,20 @@
             }
 
 
+            ///<summary>
+            ///Задание 6.
+            ///</summary>
+            void CalcExpression()
+            {
+                Console.WriteLine("Найдем значение выражения (a + b - f / a) + f * a * a - (a + b)");
+                Console.Write("Введите гипотенузу: ");
+                double Hypotenuse = Convert.ToDouble(Console.ReadLine());
+                Console.Write("Введите катет 1: ");
+                double Leg1 = Convert.ToDouble(Console.ReadLine());
+                double Leg2 = Math.Sqrt(Math.Pow(Hypotenuse, 2) - Math.Pow(Leg1, 2));
+                Console.WriteLine($"Если гипотенуза - {Hypotenuse}, а катет 1 - {Leg1}, то катет 2 составит {Leg2}");
+            }
+
             //GetValues();
 
             //FirstCycle();
@@ -220,7 +234,7 @@
             // ConvertTemperature();
 
             // Pifagor2K();
-            
+
             //Pifagor1H1K();
         }
     }

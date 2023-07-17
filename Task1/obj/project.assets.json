@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PROJECTS\\CSharpEducation\\Task1\\Task1.csproj",
+      "projectUniqueName": "D:\\repos\\CSharpEducation\\Task1\\Task1.csproj",
       "projectName": "Task1",
-      "projectPath": "C:\\PROJECTS\\CSharpEducation\\Task1\\Task1.csproj",
+      "projectPath": "D:\\repos\\CSharpEducation\\Task1\\Task1.csproj",
       "packagesPath": "C:\\Users\\Dima\\.nuget\\packages\\",
-      "outputPath": "C:\\PROJECTS\\CSharpEducation\\Task1\\obj\\",
+      "outputPath": "D:\\repos\\CSharpEducation\\Task1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dima\\AppData\\Roaming\\NuGet\\NuGet.Config",
