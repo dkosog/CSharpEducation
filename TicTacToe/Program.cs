@@ -5,9 +5,10 @@
         static void Main(string[] args)
         {
             string[] GameField = new string[] { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+            int Status = 1;
 
-            void WriteGameField(string[] Field) 
-              {
+            void WriteGameField(string[] Field)
+            {
                 Console.WriteLine(" --- --- --- ");
                 Console.WriteLine($"| {Field[0]} | {Field[1]} | {Field[2]} |");
                 Console.WriteLine(" --- --- --- ");
@@ -15,47 +16,67 @@
                 Console.WriteLine(" --- --- --- ");
                 Console.WriteLine($"| {Field[6]} | {Field[7]} | {Field[8]} |");
                 Console.WriteLine(" --- --- --- ");
-              }
-            
-            bool CheckWinner(string[] Field, string State)
-              {
+            }
 
-                if (Field[0] == State && Field[1] == State && Field[2] == State);
-                return true;
+            int CheckWinner(string[] Field, string State)
+            {
 
-                if (Field[3] == State && Field[4] == State && Field[5] == State);
-                return true;
+                if (Field[0] == State && Field[1] == State && Field[2] == State) ;
+                Console.WriteLine($"Выиграли {State}");
+                return 1;
 
-                if (Field[6] == State && Field[7] == State && Field[8] == State);
-                return true;
+                if (Field[3] == State && Field[4] == State && Field[5] == State) ;
+                Console.WriteLine($"Выиграли {State}");
+                return 1;
 
-                if (Field[0] == State && Field[3] == State && Field[6] == State);
-                return true;
+                if (Field[6] == State && Field[7] == State && Field[8] == State) ;
+                Console.WriteLine($"Выиграли {State}");
+                return 1;
 
-                if (Field[1] == State && Field[4] == State && Field[7] == State);
-                return true;
+                if (Field[0] == State && Field[3] == State && Field[6] == State) ;
+                Console.WriteLine($"Выиграли {State}");
+                return 1;
 
-                if (Field[2] == State && Field[5] == State && Field[8] == State);
-                return true;
+                if (Field[1] == State && Field[4] == State && Field[7] == State) ;
+                Console.WriteLine($"Выиграли {State}");
+                return 1;
 
-                if (Field[0] == State && Field[4] == State && Field[8] == State);
-                return true;
+                if (Field[2] == State && Field[5] == State && Field[8] == State) ;
+                Console.WriteLine($"Выиграли {State}");
+                return 1;
 
-                if (Field[2] == State && Field[4] == State && Field[6] == State);
-                return true;
+                if (Field[0] == State && Field[4] == State && Field[8] == State) ;
+                Console.WriteLine($"Выиграли {State}");
+                return 1;
 
-                return false;
+                if (Field[2] == State && Field[4] == State && Field[6] == State) ;
+                Console.WriteLine($"Выиграли {State}");
+                return 1;
+
+                return 0;
 
             }
+
+
+
+            
+                WriteGameField(GameField);
+                GameField[3] = "O";
+                GameField[4] = "O";
+                GameField[5] = "O";
+                WriteGameField(GameField);
+                Status = CheckWinner(GameField, "O");
+                Console.WriteLine(Status);
+
+            
             
 
-            WriteGameField(GameField);
-            GameField[3] = "X";
-            GameField[4] = "X";
-            GameField[5] = "X";
-            WriteGameField(GameField);
-            Console.WriteLine(CheckWinner(GameField, "X"));
-        }
+
+
 
     }
+        
+    }
+
+    
 }
