@@ -203,12 +203,86 @@
             void CalcExpression()
             {
                 Console.WriteLine("Найдем значение выражения (a + b - f / a) + f * a * a - (a + b)");
-                Console.Write("Введите гипотенузу: ");
-                double Hypotenuse = Convert.ToDouble(Console.ReadLine());
-                Console.Write("Введите катет 1: ");
-                double Leg1 = Convert.ToDouble(Console.ReadLine());
-                double Leg2 = Math.Sqrt(Math.Pow(Hypotenuse, 2) - Math.Pow(Leg1, 2));
-                Console.WriteLine($"Если гипотенуза - {Hypotenuse}, а катет 1 - {Leg1}, то катет 2 составит {Leg2}");
+                
+                Console.Write("Введите значение a не равное 0: ");
+                double a = Convert.ToDouble(Console.ReadLine());
+                
+                if (a == 0) {
+                    Console.Write("Введите a не равное 0: ");
+                    a = Convert.ToDouble(Console.ReadLine());
+                }
+                
+                Console.Write("Введите значение b: ");
+                double b = Convert.ToDouble(Console.ReadLine());
+                Console.Write("Введите значение f: ");
+                double f = Convert.ToDouble(Console.ReadLine());
+                
+                double Result = (a + b - (f / a) + f * a * a - (a + b));
+                Console.WriteLine($"При значениях а = {a}, b = {b}, f = {f}, значение выражения будет = {Result}");
+            }
+
+
+            ///<summary>
+            ///Задание 7a.
+            ///</summary>
+            void WriteStars1()
+            { 
+            Console.WriteLine("Введите высоту пирамиды из звездочек:");
+                int hight = int.Parse(Console.ReadLine());
+                
+                for (int i = 0; i < hight+1; i++) 
+                {
+                   for (int j = 0; j < i; j++)
+                    { 
+                        Console.Write("*");
+                    }
+                    Console.WriteLine();
+                }
+            }
+
+            ///<summary>
+            ///Задание 7b.
+            ///</summary>
+            void WriteStars2()
+            {
+                Console.WriteLine("Введите высоту пирамиды из звездочек:");
+                int hight = int.Parse(Console.ReadLine());
+
+                for (int i = 0; i < hight + 1; i++)
+                {
+
+                    for (int s = hight; s > i; s--)
+                    {
+                        Console.Write(" ");
+                    }
+                    
+                    for (int j = 0; j < i; j++)
+                    {                        
+                        Console.Write("*");
+                    }
+                    Console.WriteLine();
+                }
+            }
+
+            ///<summary>
+            ///Задание 7c.
+            ///</summary>
+            void WriteStars3()
+            {
+                Console.WriteLine("Введите символ для отрисовки пирамиды");
+                string Symbol = Console.ReadLine();
+
+                Console.WriteLine($"Введите высоту пирамиды из {Symbol}");
+                int hight = int.Parse(Console.ReadLine());
+
+                for (int i = 0; i < hight + 1; i++)
+                {
+                    for (int j = 0; j < i; j++)
+                    {
+                        Console.Write(Symbol);
+                    }
+                    Console.WriteLine();
+                }
             }
 
             //GetValues();
@@ -236,6 +310,14 @@
             // Pifagor2K();
 
             //Pifagor1H1K();
+
+            //CalcExpression();
+
+            //WriteStars1 ();
+
+            //WriteStars2();
+
+            WriteStars3();
         }
     }
 }
