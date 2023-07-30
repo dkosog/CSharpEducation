@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\repos\\CSharpEducation\\TicTacToe\\TicTacToe.csproj",
+      "projectUniqueName": "C:\\PROJECTS\\CSharpEducation\\TicTacToe\\TicTacToe.csproj",
       "projectName": "TicTacToe",
-      "projectPath": "D:\\repos\\CSharpEducation\\TicTacToe\\TicTacToe.csproj",
+      "projectPath": "C:\\PROJECTS\\CSharpEducation\\TicTacToe\\TicTacToe.csproj",
       "packagesPath": "C:\\Users\\Dima\\.nuget\\packages\\",
-      "outputPath": "D:\\repos\\CSharpEducation\\TicTacToe\\obj\\",
+      "outputPath": "C:\\PROJECTS\\CSharpEducation\\TicTacToe\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dima\\AppData\\Roaming\\NuGet\\NuGet.Config",

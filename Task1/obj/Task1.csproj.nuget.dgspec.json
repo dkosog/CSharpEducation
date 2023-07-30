@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repos\\CSharpEducation\\Task1\\Task1.csproj": {}
+    "C:\\PROJECTS\\CSharpEducation\\Task1\\Task1.csproj": {}
   },
   "projects": {
-    "D:\\repos\\CSharpEducation\\Task1\\Task1.csproj": {
+    "C:\\PROJECTS\\CSharpEducation\\Task1\\Task1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\CSharpEducation\\Task1\\Task1.csproj",
+        "projectUniqueName": "C:\\PROJECTS\\CSharpEducation\\Task1\\Task1.csproj",
         "projectName": "Task1",
-        "projectPath": "D:\\repos\\CSharpEducation\\Task1\\Task1.csproj",
+        "projectPath": "C:\\PROJECTS\\CSharpEducation\\Task1\\Task1.csproj",
         "packagesPath": "C:\\Users\\Dima\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\CSharpEducation\\Task1\\obj\\",
+        "outputPath": "C:\\PROJECTS\\CSharpEducation\\Task1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dima\\AppData\\Roaming\\NuGet\\NuGet.Config",
