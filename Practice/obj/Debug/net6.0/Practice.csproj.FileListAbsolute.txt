@@ -18,7 +18,6 @@ D:\repos\CSharpEducation\Practice\bin\Debug\net6.0\Practice.deps.json
 D:\repos\CSharpEducation\Practice\bin\Debug\net6.0\Practice.runtimeconfig.json
 D:\repos\CSharpEducation\Practice\bin\Debug\net6.0\Practice.dll
 D:\repos\CSharpEducation\Practice\bin\Debug\net6.0\Practice.pdb
-D:\repos\CSharpEducation\Practice\obj\Debug\net6.0\Practice.csproj.AssemblyReference.cache
 D:\repos\CSharpEducation\Practice\obj\Debug\net6.0\Practice.GeneratedMSBuildEditorConfig.editorconfig
 D:\repos\CSharpEducation\Practice\obj\Debug\net6.0\Practice.AssemblyInfoInputs.cache
 D:\repos\CSharpEducation\Practice\obj\Debug\net6.0\Practice.AssemblyInfo.cs

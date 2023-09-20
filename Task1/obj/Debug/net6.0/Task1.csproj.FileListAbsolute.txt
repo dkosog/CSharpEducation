@@ -13,3 +13,17 @@ C:\PROJECTS\CSharpEducation\Task1\obj\Debug\net6.0\refint\Task1.dll
 C:\PROJECTS\CSharpEducation\Task1\obj\Debug\net6.0\Task1.pdb
 C:\PROJECTS\CSharpEducation\Task1\obj\Debug\net6.0\Task1.genruntimeconfig.cache
 C:\PROJECTS\CSharpEducation\Task1\obj\Debug\net6.0\ref\Task1.dll
+D:\repos\CSharpEducation\Task1\bin\Debug\net6.0\Task1.exe
+D:\repos\CSharpEducation\Task1\bin\Debug\net6.0\Task1.deps.json
+D:\repos\CSharpEducation\Task1\bin\Debug\net6.0\Task1.runtimeconfig.json
+D:\repos\CSharpEducation\Task1\bin\Debug\net6.0\Task1.dll
+D:\repos\CSharpEducation\Task1\bin\Debug\net6.0\Task1.pdb
+D:\repos\CSharpEducation\Task1\obj\Debug\net6.0\Task1.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\CSharpEducation\Task1\obj\Debug\net6.0\Task1.AssemblyInfoInputs.cache
+D:\repos\CSharpEducation\Task1\obj\Debug\net6.0\Task1.AssemblyInfo.cs
+D:\repos\CSharpEducation\Task1\obj\Debug\net6.0\Task1.csproj.CoreCompileInputs.cache
+D:\repos\CSharpEducation\Task1\obj\Debug\net6.0\Task1.dll
+D:\repos\CSharpEducation\Task1\obj\Debug\net6.0\refint\Task1.dll
+D:\repos\CSharpEducation\Task1\obj\Debug\net6.0\Task1.pdb
+D:\repos\CSharpEducation\Task1\obj\Debug\net6.0\Task1.genruntimeconfig.cache
+D:\repos\CSharpEducation\Task1\obj\Debug\net6.0\ref\Task1.dll
